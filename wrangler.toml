@@ -1,1 +1,13 @@
+# Project name
+name = "holihaze25"
 
+# Compatibility date
+compatibility_date = "2025-02-01"
+
+[build]
+command = "npm install --legacy-peer-deps && npm run build"
+directory = ".next" # Output folder for Next.js (you don't need to replace it)
+
+# Specifies where the static assets are stored
+[static_sites]
+asset_directory = "public" # Public folder for static assets
