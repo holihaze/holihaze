@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server"
-import { Cashfree } from "cashfree-sdk"
+const { Cashfree } = require('cashfree-sdk');
 
 const cashfree = new Cashfree({
   env: "PROD", // Use 'PROD' for production
